@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --primary: #2f2e41;
+  --secondary: #00bfa6;
+  --tertiary: #c2c2c2;
+  --quaternary: #ffffff;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--primary);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.page {
+  max-width: 80rem;
+  margin: 4.44rem auto 1.25rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 37.94rem;
+  margin-bottom: 6.81rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 4rem;
+}
+
+nav ul li a {
+  color: var(--quaternary);
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+
+nav ul li a:hover {
+  opacity: 0.8;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10.44rem;
+}
+
+main section h1 {
+  color: var(--quaternary);
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-bottom: 3.69rem;
+}
+
+span {
+  color: var(--secondary);
+}
+
+main section p {
+  color: var(--tertiary);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 37.75rem;
+}
+
+.line {
+  width: 35.50006rem;
+  height: 0.0625rem;
+  background: var(--secondary);
+  margin: 0 auto 1.69rem;
+}
+
+footer {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+footer a {
+  color: var(--quaternary);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+
+footer a:hover {
+    opacity:.5;
+}
+
+#cadeado {
+    position: absolute;
+    left: 0;
+}
